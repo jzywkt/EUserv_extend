@@ -19,7 +19,7 @@ USERNAME: 你的EUserv账户邮箱或Customer ID 第二个账户
 PASSWORD: 第一个账户密码 第二个账户密码
 ```
 
-2、设置好环境变量后点击你的仓库上方的 Actions 选项，点击 `I understand...` 按钮确认在 Fork 的仓库上启用 GitHub Actions 。
+2、设置后点击你的仓库上方的 Actions 选项，点击 `I understand...` 按钮确认在 Fork 的仓库上启用 GitHub Actions 。
 
 3、最后在你这个 Fork 的仓库内修改一下```.github/workflows/action.yml ```文件（这个本项目的Workflow的配置文件）。请见这一段落：
 
@@ -46,7 +46,7 @@ schedule:
 
 1、若使用Github Actions运行本脚本，将会公开你的账号中VPS个数以及VPS的ID（**Contract**）
 
-~~2、由于Github Workflow的限制，你可能需要每两个月重新启动一下，方法是随便改下本README.md~（本项目目前每月会自动向仓库提交commit，Workflow应该不会被自动暂停了）
+~~2、由于Github Workflow的限制，你可能需要每两个月重新启动一下，方法是随便改下本README.md~
 asdfjkl asjdfkljasdklfj aklsdjfkl; ajs;dlf
 
 ## 参考（及本文档）
